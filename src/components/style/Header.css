@@ -1,0 +1,17 @@
+*{
+    color: #fff;
+    
+    margin-right: 10px;
+}
+.navbar{
+    width: '100%';
+    position: fixed;
+}
+.netflixLogo{
+    height: 30px;
+    margin-left: 4px;
+}
+img{
+    height: 30px;
+    margin-right: 20px;
+}
