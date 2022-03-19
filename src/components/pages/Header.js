@@ -5,8 +5,7 @@ function Header() {
   return (
     <div className='navbar'>
         <img className='netflixLogo' src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="" />
-        <a>Home</a>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="" />
+        <img className='avatar' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="" />        
     </div>
   )
 }

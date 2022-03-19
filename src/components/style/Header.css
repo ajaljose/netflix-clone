@@ -1,17 +1,32 @@
 *{
     color: #fff;
-    
-    margin-right: 10px;
 }
 .navbar{
-    width: '100%';
     position: fixed;
+    top: 5px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;  
+    justify-content: space-between;
 }
-.netflixLogo{
-    height: 30px;
-    margin-left: 4px;
+.netflixLogo{ 
+    height: 30px;    
+    margin-left: 10px;  
+    margin-right: 10px;
+    left :20px;
 }
-img{
+.avatar{
     height: 30px;
-    margin-right: 20px;
+    right: 20px;    
+    margin-right: 10px;
+    margin-left: 1370px;
+}
+.btn_Home{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0.3rem;
+    color: #f8edeb;
+    text-decoration: none;
+    float:left; 
+    height: 30px;
+
 }
