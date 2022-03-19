@@ -3,23 +3,20 @@
 }
 .navbar{
     position: fixed;
-    top: 5px;
+    top:0;
     width: 100%;
-    margin-top: 0px;
-    padding-top: 0px;  
-    justify-content: space-between;
+    height: 30px;
+    padding: 10px;
 }
 .netflixLogo{ 
-    height: 30px;    
-    margin-left: 10px;  
-    margin-right: 10px;
-    left :20px;
+    position: fixed;
+    left: 20px;
+    width: 80px;
 }
 .avatar{
-    height: 30px;
-    right: 20px;    
-    margin-right: 10px;
-    margin-left: 1370px;
+    position: fixed;
+    right: 20px;
+    width: 30px;
 }
 .btn_Home{
     font-family: 'Open Sans', sans-serif;

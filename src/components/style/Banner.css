@@ -1,6 +1,7 @@
 .Banner{
     margin: 0px;
     padding: 0px;
-    background-image: url(https://i0.wp.com/www.comicsbeat.com/wp-content/uploads/2021/11/WOFT_S1_BoxArtFireTV_HeroesVillains_NOV19_16x9_THA_FINAL_en-US.jpg?fit=1920%2C1080&ssl=1);
+    background-image: url(https://ntvb.tmsimg.com/assets/p17710222_b_h8_aa.jpg?w=1280&h=720);
     height: 500px;
+    background-size: cover;
 }
