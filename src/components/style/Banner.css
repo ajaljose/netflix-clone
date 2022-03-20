@@ -1,7 +1,53 @@
 .Banner{
-    margin: 0px;
-    padding: 0px;
-    background-image: url(https://ntvb.tmsimg.com/assets/p17710222_b_h8_aa.jpg?w=1280&h=720);
-    height: 500px;
+    background-image: url(https://wallpaperaccess.com/full/2855615.jpg);
+    height: 480px;
     background-size: cover;
+}
+
+.content{
+    padding-top: 150px;
+    padding-left: 40px;
+    height: 190px;
+}
+.BannerTitle{
+    font-size: 3rem;
+    font-weight: 800; 
+    padding-bottom: 0.3rem;
+}
+.btn_grp{
+}
+.btn{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    color: black;
+    background-color: #e6e6e6;
+}
+.discription{
+    width: 30rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1rem; 
+    height: 80px;
+    max-width: 360px;
+    justify-content: space-between;
+}
+.shade{
+    padding-left: px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+    
 }
