@@ -11,7 +11,16 @@
 .row::-webkit-scrollbar{
     display: none;
 }
+.postersm{
+    max-height: 150px;
+    margin-right: 10px;    
+    transition: transform .3s;
+}
 .poster{
-    max-height: 230px;
+    max-height: 250px;
     margin-right: 10px;
+    transition: transform .3s;
+}
+.poster:hover{
+    transform: scale(1.1);
 }

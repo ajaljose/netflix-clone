@@ -7,7 +7,7 @@ function Banner() {
   useEffect(()=>{
     axios.get(`https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}&language=en-US`).then((response=>{
       console.log(response.data.results[0]);
-      setMovie(response.data.results[Math.floor(Math.random() * 10)])
+      setMovie(response.data.results[Math.floor(Math.random() * 20)])
     }))
   },[]) 
   return (

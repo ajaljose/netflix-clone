@@ -1,21 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import '../style/RowPost.css'
-function RowPost() {
+import axios from "../../axios";
+import {imageURL} from '../../constants/constants'
+function RowPost(props) {
+  const [poster, setPoster] = useState([]);
+  useEffect(() => {
+          axios.get(props.url).then(response=>{
+            console.log(response.data)
+            setPoster(response.data.results)
+          })
+  }, []);
   return (
     <div className="rowPost">
-      <h2 className="title">Originals</h2>
+      <h2 className="title">{props.title}</h2>
       <div className="row">
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-        <img className="poster" src="https://www.sknmart.com/wp-content/uploads/2020/07/king2.jpg"></img>
-      
+        {poster.map((obj)=>{
+          return(
+          <img className={props.isSmall ? "postersm" : "poster" } src={props.isSmall ?`${imageURL+obj.backdrop_path}`:`${imageURL+obj.poster_path}`}></img>  
+          )})}
       </div>
     </div>
   );
