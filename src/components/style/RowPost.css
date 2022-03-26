@@ -15,12 +15,17 @@
     max-height: 150px;
     margin-right: 10px;    
     transition: transform .3s;
+    cursor: pointer;
 }
 .poster{
     max-height: 250px;
     margin-right: 10px;
     transition: transform .3s;
+    cursor: pointer;
 }
 .poster:hover{
+    transform: scale(1.1);
+}
+.postersm:hover{
     transform: scale(1.1);
 }
