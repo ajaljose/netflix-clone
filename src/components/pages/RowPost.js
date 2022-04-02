@@ -3,6 +3,7 @@ import '../style/RowPost.css'
 import axios from "../../axios";
 import {imageURL,API_KEY} from '../../constants/constants';
 import YouTube from "react-youtube";
+let prevId='';
 function RowPost(props) {
   const [poster, setPoster] = useState([]);
   const [Urlid, setUrlid] = useState('');
@@ -20,10 +21,16 @@ function RowPost(props) {
       autoplay: 0,
     },
   };
+  
   const handleMovie=(id)=>{
     axios.get(`movie/${id}/videos?api_key=${API_KEY}&language=en-US`).then(response=>{
-        if(response.data.results.length!==0){
+        if(response.data.results.length!==0 && prevId!==id){
+          prevId=id;
           setUrlid(response.data.results[0])
+        }
+        else{
+          setUrlid('');
+          prevId='';
         }
     })
   }
