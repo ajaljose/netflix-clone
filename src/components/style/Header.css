@@ -18,6 +18,20 @@
     right: 20px;
     width: 30px;
 }
+h5{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.mMovies{
+    position: fixed;
+    left: 110px;
+    text-decoration: underline 3px #E50914  ;
+}
+.mSeries{
+    position: fixed;
+    left: 170px;
+}
 .btn_Home{
     font-family: 'Open Sans', sans-serif;
     margin-top: 0.3rem;

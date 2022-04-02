@@ -28,7 +28,7 @@ function Footer() {
   	 		<div className="footer-col">
   	 			<h4>follow us</h4>
   	 			<ul>
-  	 				<li><a href="#">Facebook</a></li>
+  	 				<li><a href="">Facebook</a></li>
   	 				<li><a href="#">Twitter</a></li>
   	 				<li><a href="#">Instagram</a></li>
   	 				<li><a href="#">LinkedIn</a></li>
