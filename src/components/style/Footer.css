@@ -37,7 +37,7 @@ ul{
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
-.footer-col ul li a{
+.footer-col ul li p{
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -50,11 +50,11 @@ ul{
 #Disclaimer{
     color: #bbbbbb;
 }
-.footer-col ul li a:hover{
+.footer-col ul li p:hover{
 	color: #ffffff;
 	padding-left: 8px;
 }
-.footer-col .social-links a{
+.footer-col .social-links p{
 	display: inline-block;
 	height: 40px;
 	width: 40px;

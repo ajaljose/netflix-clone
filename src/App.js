@@ -1,4 +1,5 @@
 import Banner from "./components/pages/Banner";
+import React from "react";
 import Header from "./components/pages/Header";
 import './App.css'
 import RowPost from "./components/pages/RowPost";
@@ -13,8 +14,8 @@ function App() {
       <RowPost url={action} title='Action' isSmall/>
       <RowPost url={romance} title='Romance' />
       <RowPost url={animation} title='Animation' isSmall/>
-
       <Footer/>
+
     </div>
   );
 }

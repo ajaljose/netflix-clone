@@ -9,29 +9,29 @@ function Footer() {
   	 		<div className="footer-col">
   	 			<h4>company</h4>
   	 			<ul>
-  	 				<li><a href="#">about us</a></li>
-  	 				<li><a href="#">our services</a></li>
-  	 				<li><a href="#">privacy policy</a></li>
-  	 				<li><a href="#">affiliate program</a></li>
+  	 				<li><p >our services</p></li>
+  	 				<li>< p>privacy policy</p></li>
+  	 				<li><p>affiliate program</p></li>
+  	 				<li><p>about us</p></li>
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
   	 			<h4>get help</h4>
   	 			<ul>
-  	 				<li><a href="#">FAQ</a></li>
-  	 				<li><a href="#">shipping</a></li>
-  	 				<li><a href="#">returns</a></li>
-  	 				<li><a href="#">order status</a></li>
+  	 				<li><p>FAQ</p></li>
+  	 				<li><p>shipping</p></li>
+  	 				<li><p>returns</p></li>
+  	 				<li><p>order status</p></li>
   	 			</ul>
   	 		</div>
   	 		
   	 		<div className="footer-col">
   	 			<h4>follow us</h4>
   	 			<ul>
-  	 				<li><a href="">Facebook</a></li>
-  	 				<li><a href="#">Twitter</a></li>
-  	 				<li><a href="#">Instagram</a></li>
-  	 				<li><a href="#">LinkedIn</a></li>
+  	 				<li><p>Facebook</p></li>
+  	 				<li><p>Twitter</p></li>
+  	 				<li><p>Instagram</p></li>
+  	 				<li><p>LinkedIn</p></li>
   	 			</ul>
   	 		</div>
          <div className="footer-col">
@@ -40,7 +40,7 @@ function Footer() {
 Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as  teaching, education and research etc...</p>
   	 		</div>
   	 	</div>
-       <p id='Disclaimer'>©️Created By Ajal Jose</p>
+       <p id='Disclaimer'>Created By Ajal Jose</p>
   	 </div>
   </footer>
     </div>
