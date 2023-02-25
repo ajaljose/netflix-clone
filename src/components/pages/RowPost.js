@@ -11,12 +11,7 @@ function RowPost(props) {
           axios.get(props.url).then(response=>{
             console.log(response.data)
             setPoster(response.data.results)
-          })
-          debugger;
-          axios.get('http://localhost:3001/signup').then(response=>{
-            console.log(response.data)
-            
-          })
+          })          
   }, []);
   const opts = {
     height: '390',
